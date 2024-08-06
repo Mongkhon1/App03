@@ -1,0 +1,19 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-orang: #ff0000;
+	--ion-color-orang-rgb: 255,0,0;
+	--ion-color-orang-contrast: #000000;
+	--ion-color-orang-contrast-rgb: 0,0,0;
+	--ion-color-orang-shade: #e00000;
+	--ion-color-orang-tint: #ff1a1a;
+}
+
+.ion-color-orang {
+	--ion-color-base: var(--ion-color-orang);
+	--ion-color-base-rgb: var(--ion-color-orang-rgb);
+	--ion-color-contrast: var(--ion-color-orang-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-orang-contrast-rgb);
+	--ion-color-shade: var(--ion-color-orang-shade);
+	--ion-color-tint: var(--ion-color-orang-tint);
+}
